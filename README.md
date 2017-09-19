@@ -22,7 +22,6 @@ The package is mostly just for calling the main function, penrose.full(). Here i
 
 ``` r
 library(penrose)
-library(ColorPalette)
 
 # parameters
 core.x= 0 # center x
@@ -51,4 +50,4 @@ penrose.full(core.x= core.x, core.y= core.y, core.r= core.r, final.iter= final.i
 
 If you play around with the animation package, you can also make something like the following:
 
-<img src="C:/Users/Alex/Desktop/penrose/penrose.anim.gif" style="display: block; margin: auto;" />
+<img src="penrose.anim.gif" style="display: block; margin: auto;" />

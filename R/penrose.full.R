@@ -53,7 +53,7 @@ penrose.full= function(core.x= 0, core.y= 0, core.r, final.iter,
     ind.1= inds.1[i]
     ind.2= inds.2[i]
     
-    penrose(xs= c(decs.x[ind.1], decs.x[ind.2], core.x),
+    penrose.draw(xs= c(decs.x[ind.1], decs.x[ind.2], core.x),
             ys= c(decs.y[ind.1], decs.y[ind.2], core.y), 
             type= "kite", iter= 1, final.iter= final.iter, core.x= core.x, core.y= core.y, core.r= core.r, 
             kite= kite, dart= dart, core.rot= core.rot, core.sca= core.sca, cent.rot= cent.rot, cent.sca= cent.sca, 
