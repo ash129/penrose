@@ -48,7 +48,7 @@ penrose.full= function(core.x= 0, core.y= 0, core.r, final.iter,
   inds.2= c(2, 2, 4, 4, 6, 6, 8, 8, 10, 10)
   
   # make decagon
-  sapply(1:10, FUN= function(i) {
+  for(i in 1:10){
     
     ind.1= inds.1[i]
     ind.2= inds.2[i]
@@ -58,6 +58,6 @@ penrose.full= function(core.x= 0, core.y= 0, core.r, final.iter,
             type= "kite", iter= 1, final.iter= final.iter, core.x= core.x, core.y= core.y, core.r= core.r, 
             kite= kite, dart= dart, core.rot= core.rot, core.sca= core.sca, cent.rot= cent.rot, cent.sca= cent.sca, 
             ticker= ticker)
-  })
+  }
   
 }
